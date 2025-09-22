@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Makeup</title>
+
+  <link rel="stylesheet" href="css/miestilomakeup.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <h3 id="titulo" class="logo">SEPHORA</h3>
+    <form class="formulario">
+      <input id="buscador" type="text" placeholder="Search">
+    </form>
+    <nav>
+      <ul>
+        <li class="text_color margen margininicio">Registrarse</li>
+        <li class="text_color margen">Tienda y Servicios</li>
+        <li class="text_color margen">Comunidad</li>
+      </ul>
+    </nav>
+    <div id="icons">
+      <i class="bi bi-heart-fill"></i>
+      <i class="bi bi-cart"></i>
+    </div>
+  </header>
+
+  <nav class="categories">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Makeup.html">Maquillaje</a></li>
+      <li><a href="Skincare.html">Skincare</a></li>
+      <li><a href="Cabello.html">Cabello</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <section id="promo">
+    <div class="container">
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="texto_centro">
+        <div class="margen_interior paddingpromo">
+          <div class="chips-container">
+            <div class="chips-wrap">
+              <button class="chip"><span>New</span><span class="icon rosa">✨</span></button>
+              <button class="chip"><span>Bestsellers</span><span class="icon verde">🏅</span></button>
+              <button class="chip"><span>Value Sets</span><span class="icon verde">🧪</span></button>
+              <button class="chip"><span>Mini Size</span><span class="icon azul">⚠️</span></button>
+              <button class="chip"><span>Jumbo Size</span><span class="icon verde">🧴</span></button>
+              <button class="chip"><span>Clean</span><span class="icon verde">✅</span></button>
+              <button class="chip"><span>Vegan</span><span class="icon verde">🌱</span></button>
+              <button class="chip"><span>Cruelty-Free</span><span class="icon rosa">🐰</span></button>
+            </div>
+          </div>
+
+          <section>
+            <div class="container margen_interior">
+              <div class="row">
+                <div class="col-2">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Producto para TU tipo de piel
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Piel seca </li>
+                            <li>Piel grasa</li>
+                            <li>Acne</li>
+                            <li>Quita manchas</li>
+                            <li>Poros</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Pickup & Delivery
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li><b>Pickup:</b> Escoge una tienda </li>
+                            <li><b>Delivery para el mismo dia:</b> Selecciona tu ubicacción</li>
+                            <li><b>Shipping:</b> Elige tu ubicacción</li>
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Precio
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Menor a L.500 </li>
+                            <li>L.500 - L.1,000</li>
+                            <li>L.1,001-L.1,500</li>
+                            <li>L.1,501-L.2,000</li>
+                            <li>L.2,001-L.3,000</li>
+                            <li>Mayor a L.3,000</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Cobertura
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Completa</li>
+                            <li>Mediano</li>
+                            <li>Claro</li>
+                            <li>Transparente</li>
+                            <li>Ligera</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Marcas
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Tower 28 Beauty (11) </li>
+                            <li>Summer Fridays (24)</li>
+                            <li>Patrick TA (56)</li>
+                            <li>Charlotte Tilbury(15)</li>
+                            <li>Huda Beauty(36)</li>
+                            <li>Rhode (47)</li>
+                            <li>DIOR (46)</li>
+                            <li>Rare Beauty(12)</li>
+                            <li>ONESIZE by Patrick Starrr (32)</li>
+                            <li>MAKEUP BY MARIO (50)</li>
+                            <li>Fenty Beauty by Rihanna (76)</li>
+                            <li>NARS (51)</li>
+                            <li>Too Faced (28)</li>
+                            <li>Milk Makeup(39)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          Rating
+                        </button>
+                      </h2>
+                      <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>★★★★★(25)</li>
+                            <li>★★★★☆(582)</li>
+                            <li>★★★☆☆(147)</li>
+                            <li>★★☆☆☆(257)</li>
+                            <li>★☆☆☆☆(68)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                          Nuevo
+                        </button>
+                      </h2>
+                      <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Nuevos productos (4)</li>
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                          Rango de Edad
+                        </button>
+                      </h2>
+                      <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>20s (1574) </li>
+                            <li>30s(1455)</li>
+                            <li>40s(144)</li>
+                            <li>50s+ (345)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-10">
+                  <div class="row">
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/uno.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Summer Fridays</h5>
+                          <p class="card-text small">Tratamiento de bálsamo labial hidratante</p>
+                          <div class="fw-bold fs-5">L.629.00</div>
+                          <div class="small">★★★★☆ 325</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/dos.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">One Size</h5>
+                          <p class="card-text small">Mini spray fijador resistente al agua</p>
+                          <div class="fw-bold fs-5">L.471.00</div>
+                          <div class="small">★★★★☆ 16K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/tres.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Patrick TA</h5>
+                          <p class="card-text small">Dúo de rubor en crema y polvo Double-Take</p>
+                          <div class="fw-bold fs-5">L.996.00</div>
+                          <div class="small">★★★☆☆ 9.7K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/cuatro.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Charlotte Tilbury</h5>
+                          <p class="card-text small">Spray fijador hidratante Airbrush Flawless</p>
+                          <div class="fw-bold fs-5">L.1,520.00</div>
+                          <div class="small">★★★★☆ 4.5K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/cinco.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Huda Beauty</h5>
+                          <p class="card-text small">Mini Easy Bake polvos sueltos para hornear</p>
+                          <div class="fw-bold fs-5">L.602.00</div>
+                          <div class="small">★★★★☆ 2.2K</div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/seis.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Tower 28 Beauty</h5>
+                          <p class="card-text small">Máscara de pestañas voluminizadora...</p>
+                          <div class="fw-bold fs-5">L.393.00</div>
+                          <div class="small">★★★★⯨ 1.2K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/siete.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Charlotte Tilbury</h5>
+                          <p class="card-text small">Base de maquillaje Matte de cobertura total</p>
+                          <div class="fw-bold fs-5">L.1,284.00</div>
+                          <div class="small">★★★★☆ 1.6K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/ocho.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Rare Beauty</h5>
+                          <p class="card-text small">Contorno líquido Soft Pinch</p>
+                          <div class="fw-bold fs-5">L.733.00</div>
+                          <div class="small">★★★★⯨ 2.8K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/nueve.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Tower 28 Beauty</h5>
+                          <p class="card-text small">Aceite labial hidratante ShineOn Lip Jelly</p>
+                          <div class="fw-bold fs-5">L.419.00</div>
+                          <div class="small">★★★★☆ 842</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/diez.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Too Faced</h5>
+                          <p class="card-text small">Corrector multiusos Super Coverage Mini</p>
+                          <div class="fw-bold fs-5">L419.00</div>
+                          <div class="small">★★★⯨☆ 1.7K</div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/once.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Dior</h5>
+                          <p class="card-text small">Rubor en polvo Rosy Glow</p>
+                          <div class="fw-bold fs-5">L.1,100.00</div>
+                          <div class="small">★★★☆☆ 16K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/doce.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Rhode</h5>
+                          <p class="card-text small">Rubor hidratante en crema modulable</p>
+                          <div class="fw-bold fs-5">L.655.00</div>
+                          <div class="small">★★★★☆ 16K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/trece.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Huda Beauty</h5>
+                          <p class="card-text small">Parches de máscara de ojos para ojeras +...</p>
+                          <div class="fw-bold fs-5">L.498.00</div>
+                          <div class="small">★★★★★ 3.5K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/catorce.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Dior</h5>
+                          <p class="card-text small">Rosy Glow Powder Blush</p>
+                          <div class="fw-bold fs-5">L.1,100.00</div>
+                          <div class="small">★★★★☆ 657</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/quince.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Makeup By Mario</h5>
+                          <p class="card-text small">Brocha de doble punta F4 para base y rostro</p>
+                          <div class="fw-bold fs-5">L.943.00</div>
+                          <div class="small">★★★☆☆ 2.5K</div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/dieciseis.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Tower 28 Beauty</h5>
+                          <p class="card-text small">Sombra de ojos en barra GoGo Cooling...</p>
+                          <div class="fw-bold fs-5">L.524.00</div>
+                          <div class="small">★★★★★ 3.8K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/diecisiete.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Fenty Beauty</h5>
+                          <p class="card-text small">Iluminador de labios universal Gloss Bomb</p>
+                          <div class="fw-bold fs-5">L.576.00</div>
+                          <div class="small">★★★★☆ 1.6K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/dieciocho.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Milk</h5>
+                          <p class="card-text small">Máscara de pestañas de alto volumen KUSH</p>
+                          <div class="fw-bold fs-5">L.393.00</div>
+                          <div class="small">★★★★☆ 2.6K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/diecinueve.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Nars</h5>
+                          <p class="card-text small">Corrector cremoso con cobertura media...</p>
+                          <div class="fw-bold fs-5">L.419.00</div>
+                          <div class="small">★★★★☆ 16K</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-2 padding_cajas">
+                      <div class="card" style="width: 12rem;">
+                        <img src="img/veinte.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title mb-1">Valentino</h5>
+                          <p class="card-text small">Bálsamo labial hidratante Disco de..</p>
+                          <div class="fw-bold fs-5">L.1,100.00</div>
+                          <div class="small">★★★★☆ 847</div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  </div>
+
+  </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+
+        </div>
+        <div class="col-8">
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <footer class="footer footerbg text-white pt-5 pb-3">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="fw-bold">Sobre Nosotros</h6>
+            <ul class="list-unstyled mb-0 footer-list">
+              <li><a href="About us.html" class="text-white">Sephora</a></li>
+              <li><a href="index.html" class="text-white">Inicio</a></li>
+              <li><a href="#" class="text-white">Noticias y actualizaciones</a></li>
+              <li><a href="#" class="text-white">Carreras</a></li>
+              <li><a href="#" class="text-white">Tarjetas de Regalo</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="fw-bold">My Sephora</h6>
+            <ul class="list-unstyled mb-0 footer-list">
+              <li><a href="#" class="text-white">Expertos en Belleza</a></li>
+              <li><a href="#" class="text-white">Estado del pedido</a></li>
+              <li><a href="#" class="text-white">Configuraciones de la cuenta</a></li>
+              <li><a href="#" class="text-white">Bazar de recompensas</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="fw-bold">Help</h6>
+            <ul class="list-unstyled mb-0 footer-list">
+              <li><a href="#" class="text-white">Customer Service</a></li>
+              <li><a href="#" class="text-white">Envío</a></li>
+              <li><a href="#" class="text-white">Devoluciones y cambios</a></li>
+              <li><a href="#" class="text-white">Ubicaciones de las tiendas</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="fw-bold">Suscríbete para recibir correos electrónicos</h6>
+            <form class="d-flex mb-3">
+              <input type="email" class="form-control me-2" placeholder="Enter your email">
+              <button class="btn btn-outline-light">Sign Up</button>
+            </form>
+
+            <h6 class="fw-bold">Suscríbete para recibir textos telefónicos</h6>
+            <form class="d-flex mb-3">
+              <input type="text" class="form-control me-2" placeholder="Enter your number">
+              <button class="btn btn-outline-light">Sign Up</button>
+            </form>
+
+            <div id="icons-footer">
+              <a href="#"><i class="bi bi-instagram me-3 white_text"></i></a>
+              <a href="#"><i class="bi bi-facebook me-3 white_text"></i></a>
+              <a href="#"><i class="bi bi-youtube me-3 white_text"></i></a>
+              <a href="#"><i class="bi bi-twitter me-3 white_text"></i></a>
+              <br>
+            </div>
+
+          </div>
+        </div>
+        <hr class="bg-light">
+        <div class="text-center small">
+          <p class="mb-0">&copy; 2025 Mi Sitio Web. All rights reserved.</p>
+          <a href="#" class="text-white me-2">Política de privacidad</a>
+          <a href="#" class="text-white me-2">Condiciones de uso</a>
+          <a href="#" class="text-white">Accesibilidad</a>
+        </div>
+
+      </div>
+    </footer>
+
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js" type="script"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
